@@ -1,0 +1,36 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: lightcyan;
+}
+* {margin:0; padding:0}
+
+article {
+    border: 1px solid blue;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    background: white;
+    margin: 25vh 30% 0;
+    padding: 5%;
+    text-align: center;
+}
+div {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+button {
+    border-radius: 20px;
+    border: 1px solid darkblue;
+    font-size: 1em;
+    padding: 6px 0;
+}
+button:hover {
+    background: darkblue;
+    border: none;
+    color: #fff;
+}
